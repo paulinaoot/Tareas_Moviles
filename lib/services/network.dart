@@ -26,7 +26,7 @@ class Network {
     }
   }
 }
-
+// Practica 3 cool, alberto rocks
 
 /**
  * result.artist
