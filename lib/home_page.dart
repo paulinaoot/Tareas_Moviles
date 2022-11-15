@@ -44,7 +44,7 @@ class _HomePageState extends State<HomePage> {
                   if (state is RecorderInitial) {
                     return GestureDetector(
                       onTap: () async {
-                        await BlocProvider.of<RecorderBloc>(context)
+                         BlocProvider.of<RecorderBloc>(context)
                           ..add(StartRecordingEvent());
                       },
                       child: CircleAvatar(

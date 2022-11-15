@@ -37,7 +37,7 @@ class RecorderBloc extends Bloc<RecorderEvent, RecorderState> {
     }
     sleep(Duration(seconds: 5));
     String? path = await record.stop();
-    File file = await File(path!);
+    File file = File(path!);
     String? fileBytes = await storage.readFile(file);
     if (fileBytes == null) {
       emit(RecorderFailedState());
