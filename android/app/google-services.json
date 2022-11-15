@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "608668682346",
+    "project_id": "moviles2022-3fb62",
+    "storage_bucket": "moviles2022-3fb62.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:608668682346:android:637bdb5d086a5fd4326213",
+        "android_client_info": {
+          "package_name": "com.example.practica_2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "608668682346-a96g9qt84t7p9ga0kltgll8hk91adr0l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCj6qMfHkqlUeNBQu8bImlJgm3IJukDoF4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "608668682346-a96g9qt84t7p9ga0kltgll8hk91adr0l.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "608668682346-83hov465cs0do0d2vo6fra3j5347to6j.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.fireTweeter"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
