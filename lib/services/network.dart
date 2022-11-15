@@ -18,6 +18,7 @@ class Network {
     print('Response status: ${response.statusCode}');
     if (response.statusCode == 200) {
       final result = await jsonDecode(response.body);
+      print(result);
       return result;
     } else {
       print('Something went wrong :(');
